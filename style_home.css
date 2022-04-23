@@ -1,0 +1,56 @@
+/* Brand Start */
+.brand {
+    text-align: center;
+}
+
+/* Brand End */
+
+/* Navigasi Start */
+.navbar {
+    font-family: 'MS Madi';
+    font-size: 25px;
+    margin-top: -50px;
+}
+
+.navbar .navbar-nav {
+    margin-top: -50px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+/* Navigasi End */
+/* Jumbotron Start */
+.jumbotron .jumbotron-img {
+    width: 100%;
+}
+
+/* Jumbotron End */
+/* Footer Start */
+.footer {
+    color: white;
+    background-color: #8e9c8b;
+    padding-top: 2em;
+    /* bottom: 0;
+    position: absolute;
+    width: 100%; */
+}
+
+.footer .container .Copyright {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.footer .footer-social-item {
+    text-decoration: none;
+}
+
+.footer .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+/* Footer End */
