@@ -1,13 +1,13 @@
-.blog-header {
-    background-image: url("./asset/img/blog2.jpg");
-    background-size: cover;
-}
-
 .img-portfolio {
     width: 350px;
     height: 233.33px;
+    opacity: 1;
 }
 
+.img-portfolio:hover {
+    transition: 1000ms;
+    opacity: 0.8;
+}
 
 @media only screen and (min-width: 992px) {
     .img-portfolio {

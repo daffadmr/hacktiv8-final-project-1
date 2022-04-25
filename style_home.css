@@ -19,6 +19,16 @@
 .navbar .navbar-nav .nav-item .nav-link {
     text-decoration: none;
     color: black;
+    transition: 0.2s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(92, 86, 86);
+    transform: translate(0, -5px);
+}
+
+.navbar .navbar-nav .nav-item .nav-link:active {
+    transform: translate(0, 5px);
 }
 
 /* Navigasi End */
