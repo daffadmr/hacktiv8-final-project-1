@@ -5,8 +5,9 @@
 }
 
 .img-portfolio:hover {
-    transition: 1000ms;
-    opacity: 0.8;
+    transition: 0.4s;
+    opacity: 0.9;
+    transform: scale(1.01);
 }
 
 @media only screen and (min-width: 992px) {
