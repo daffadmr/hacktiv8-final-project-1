@@ -1,6 +1,12 @@
+.title {
+    font-family: 'MS Madi';
+    background-color: #8e9c8b;
+}
+
 .img-portfolio {
-    width: 350px;
-    height: 233.33px;
+    /* width: 350px;
+    height: 233.33px; */
+    width: 915px;
     opacity: 1;
 }
 
@@ -10,7 +16,7 @@
     transform: scale(1.01);
 }
 
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
     .img-portfolio {
         width: 400px;
         height: 266.66px;
@@ -29,11 +35,11 @@
         width: 650px;
         height: 455.55px;
     }
-}
+} */
 
-@media only screen and (min-width: 1750px) {
+
+@media only screen and (min-width: 1915px) {
     .img-portfolio {
-        width: 850px;
-        height: 566.66px;
+        width: 915px;
     }
 }

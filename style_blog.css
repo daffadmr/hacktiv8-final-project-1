@@ -1,3 +1,8 @@
+.title {
+    font-family: 'MS Madi';
+    background-color: #8e9c8b;
+}
+
 .blog-header {
     background-image: url("./asset/img/blog2.jpg");
     background-size: cover;
