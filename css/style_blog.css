@@ -4,6 +4,6 @@
 }
 
 .blog-header {
-    background-image: url("./asset/img/blog2.jpg");
+    background-image: url('../asset/img/blog2.jpg');
     background-size: cover;
 }
