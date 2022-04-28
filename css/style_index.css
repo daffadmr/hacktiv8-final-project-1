@@ -85,30 +85,30 @@
 
 /* Welcome End */
 
-/* Gallery Start */
-.gallery {
+/* Order Start */
+.order {
     background-color: #423F3E;
     font-family: 'Raleway';
     text-align: justify;
 }
 
-.gallery .gallery-left h1 {
+.order .order-left h1 {
     padding-top: 50px;
     text-align: start;
 }
 
-.gallery .gallery-right img {
+.order .order-right img {
     box-shadow: 35px 35px 0px 0px #ffffff;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.gallery .gallery-left .btn:hover {
+.order .order-left .btn:hover {
     background-color: #423F3E;
     color: #ffffff;
 }
 
-/* Gallery End */
+/* Order End */
 
 .modal-body thead {
     color: white;
