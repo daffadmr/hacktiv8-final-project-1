@@ -4,8 +4,6 @@
 }
 
 .img-portfolio {
-    /* width: 350px;
-    height: 233.33px; */
     width: 915px;
     opacity: 1;
 }
@@ -15,28 +13,6 @@
     opacity: 0.9;
     transform: scale(1.01);
 }
-
-/* @media only screen and (min-width: 992px) {
-    .img-portfolio {
-        width: 400px;
-        height: 266.66px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .img-portfolio {
-        width: 500px;
-        height: 333.33px;
-    }
-}
-
-@media only screen and (min-width: 1400px) {
-    .img-portfolio {
-        width: 650px;
-        height: 455.55px;
-    }
-} */
-
 
 @media only screen and (min-width: 1915px) {
     .img-portfolio {
