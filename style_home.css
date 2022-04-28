@@ -19,28 +19,113 @@
 .navbar .navbar-nav .nav-item .nav-link {
     text-decoration: none;
     color: black;
-    transition: 0.2s;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
-    color: rgb(92, 86, 86);
-    transform: translate(0, -5px);
-}
-
-.navbar .navbar-nav .nav-item .nav-link:active {
-    transform: translate(0, 5px);
+    color: #8e9c8b;
 }
 
 /* Navigasi End */
-/* Jumbotron Start */
-.jumbotron .jumbotron-img {
-    width: 100%;
+
+/* Caraousel Start */
+
+.carousel-item {
+    height: 80vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-/* Jumbotron End */
+.carousel-indicators {
+    z-index: 999;
+}
+
+
+/* Caraousel End */
+
+/* Welcome Start */
+.welcome {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.welcome .welcome-title hr {
+    width: 150px;
+    border-top: 1.5px solid #6b6a69;
+    text-align: center;
+    margin: auto;
+}
+
+.welcome .welcome-title {
+    font-family: 'MS Madi';
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.welcome .welcome-title h1 {
+    font-weight: bold;
+}
+
+.welcome .welcome-text {
+    margin: auto;
+    text-align: justify;
+}
+
+/* Welcome End */
+
+/* Gallery Start */
+.gallery {
+    background-color: #423F3E;
+    font-family: 'Raleway';
+    text-align: justify;
+}
+
+.gallery .gallery-left h1 {
+    padding-top: 50px;
+    text-align: start;
+}
+
+.gallery .gallery-right img {
+    box-shadow: 35px 35px 0px 0px #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gallery .gallery-left .btn:hover {
+    background-color: #423F3E;
+    color: #ffffff;
+}
+
+/* Gallery End */
+
+.modal-body thead {
+    color: white;
+    background: #8e9c8b;
+    border: none !important;
+}
+
+.modal-body button {
+    background: #8e9c8b;
+    color: white;
+    transition: 500ms;
+    opacity: 1;
+}
+
+.modal-body button:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+
+
 /* Footer Start */
 .footer {
-    color: white;
+    font-family: 'Raleway';
+    color: rgb(255, 255, 255);
     background-color: #8e9c8b;
     padding-top: 2em;
     /* bottom: 0;
@@ -55,7 +140,9 @@
 
 .footer .footer-social-item {
     text-decoration: none;
-    color: white;
+    color: #423F3E;
+    font-size: 30px;
+    margin-right: 1em;
 }
 
 .footer .icon {
