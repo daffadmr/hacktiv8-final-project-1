@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font API -->
+    <link href='https://fonts.googleapis.com/css?family=Ms Madi' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <!-- Bootstrap 5.1.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <script src="asset/fontawesome-free-6.1.1-web/js/all.js"></script>
+    <!-- Eksternal CSS -->
+    <link rel="stylesheet" href="css/style_index.css" />
+    <link rel="icon" href="./asset/img/brand.png">
+    <title>WhitePicture Studio</title>
+</head>
+
+<body>
+    <!-- Navigasi Start -->
+    <nav class="navbar navbar-custom sticky-top navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                WhitePicture Studio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars"
+                aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbars">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="todos.html">Todos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigasi End -->
+
+    <!-- Caraousel Start -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('asset/img/jumbotron1.jpg')">
+            </div>
+            <div class="carousel-item" style="background-image: url('asset/img/jumbotron2.jpg')">
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Caraousel End -->
+
+        <!-- Welcome Start-->
+        <div class="welcome">
+            <div class="container">
+                <div class="welcome-title">
+                    <h1>Welcome</h1>
+                    <hr>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 text-md-start">
+                        <img src="asset/img/brand.png" alt="" class="mx-auto">
+                    </div>
+                    <div class="welcome-text col-12 col-md-6">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit vitae corporis, amet
+                            repudiandae
+                            perspiciatis accusamus! Perferendis harum dolor aperiam amet voluptas architecto aliquid
+                            minus,
+                            molestiae voluptatem voluptate nemo! Enim ipsam architecto repudiandae, voluptatum nisi modi
+                            sunt
+                            asperiores vero fugiat? Expedita quod modi, sed doloremque repellat amet veniam voluptatem,
+                            a
+                            voluptatibus fuga exercitationem eveniet laudantium iure dolore quas recusandae similique
+                            sapiente
+                            sequi
+                            pariatur vitae velit, perspiciatis voluptas at minus. Ab tenetur totam blanditiis quas
+                            accusamus
+                            inventore fugiat? Voluptas cumque ullam minus sed pariatur quasi, in quidem voluptates
+                            itaque
+                            nisi
+                            laborum fugit omnis nemo, rem a tempore qui unde aspernatur porro eos?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Welcome End-->
+
+        <!-- Gallery Start-->
+        <div class=" gallery text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="gallery-left col-12 col-md-6">
+                        <h1>INTIMATE WEDDING FOR THE ADVENTURE</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error dolor blanditiis
+                            vitae non
+                            perspiciatis, excepturi cumque quod nemo delectus perferendis, deserunt eius
+                            laboriosam aut
+                            laborum
+                            doloribus? Aut ut repellat perferendis voluptate qui, excepturi nihil, omnis
+                            necessitatibus
+                            vel
+                            sapiente nobis magnam. Ea assumenda officiis perspiciatis at totam debitis error
+                            eaque
+                            veniam.
+                        </p>
+                        <button id="showmore" type="button" class="btn btn-light col-3 col-md-0 offset-4 offset-md-0"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="d-flex justify-content-end">
+                                        <button type="button" class="btn-close mx-3 mt-3" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="table-responsive">
+                                            <table class="table align-middle table-bordered text-center">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col" colspan="2">Paket</th>
+                                                        <th scope="col">Premium <br> RP.2.500.000</th>
+                                                        <th scope="col">Premium <br> RP.2.500.000</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td colspan="2">2 Pcs foto ukuran 40x60 Plus Bingkai
+                                                            Ekslusif
+                                                            non glass</td>
+                                                        <td>✔</td>
+                                                        <td>✔</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2">2 Pcs foto ukuran 40x60 Plus Bingkai
+                                                            Ekslusif
+                                                            non glass</td>
+                                                        <td>✔</td>
+                                                        <td>✔</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2">2 Pcs foto ukuran 40x60 Plus Bingkai
+                                                            Ekslusif
+                                                            non glass</td>
+                                                        <td>✔</td>
+                                                        <td>✔</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2">2 Pcs foto ukuran 40x60 Plus Bingkai
+                                                            Ekslusif
+                                                            non glass</td>
+                                                        <td>✔</td>
+                                                        <td>✔</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2">2 Pcs foto ukuran 40x60 Plus Bingkai
+                                                            Ekslusif
+                                                            non glass</td>
+                                                        <td>✔</td>
+                                                        <td>✔</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2">2 Pcs foto ukuran 40x60 Plus Bingkai
+                                                            Ekslusif
+                                                            non glass</td>
+                                                        <td>✔</td>
+                                                        <td>✔</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2">2 Pcs foto ukuran 40x60 Plus Bingkai
+                                                            Ekslusif
+                                                            non glass</td>
+                                                        <td>✔</td>
+                                                        <td>✔</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2"></td>
+                                                        <td><button class="rounded-3">Order Now</button>
+                                                        </td>
+                                                        <td><button class="rounded-3">Order Now</button>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal End -->
+                    </div>
+                    <div class="gallery-right col-12 col-md-5 text-center text-md-end ms-md-5">
+                        <img src="asset/gallery/beautiful-couple-having-their-wedding-beach.jpg" width="200px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Gallery End-->
+
+        <!-- Footer Start -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row detail">
+                    <div class="col-md-4">
+                        <div class="footer-item">
+                            <h3 class="footer-title">About Us</h3>
+                            <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quisquam,
+                                quia!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-item">
+                            <h3 class="footer-title">Contact</h3>
+                            <p class="footer-text">whitepictureStudio@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-item">
+                            <h3 class="footer-title">Follow Us</h3>
+                            <div class="footer-social">
+                                <a href="#" class="footer-social-item">
+                                    <i class="fa-brands fa-facebook-square"></i>
+                                </a>
+                                <a href="#" class="footer-social-item">
+                                    <i class="fa-brands fa-instagram-square"></i>
+                                </a>
+                                <a href="#" class="footer-social-item">
+                                    <i class="fa-brands fa-twitter-square"></i>
+                                </a>
+                                <a href="#" class="footer-social-item">
+                                    <i class="fa-brands fa-telegram"></i>
+                                </a>
+                                <a href="#" class="footer-social-item">
+                                    <i class="fa-brands fa-youtube-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row Copyright">
+                    <div class="col-md-12">
+                        <div class="footer-item">
+                            <p class="footer-text">Copyright © 2020 whitepictureStudio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+
+</html>
