@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway';
   margin: 0;
 }
 
@@ -27,31 +27,32 @@ html {
 
 .about-section {
   padding: 50px;
-  text-align: center;
   background-color: #8e9c8b;
   color: white;
+}
+
+.about-section h1 {
+  text-align: center;
+}
+
+.about-section p {
+  text-align: justify;
 }
 
 .text-our {
   margin: 40px auto;
 }
 
-.closing {
-  position: relative;
-  min-height: 1px;
-  padding-right: 150px;
-  padding-left: 150px;
-}
-
 .text-closing {
-  margin: 40px auto;
+  margin: 20px auto;
 }
 
-.container {
-  padding: 0 16px;
+.closing p {
+  font-size: 15px;
+  margin-left: 20px;
+  text-align: justify;
 }
 
-.container::after,
 .row::after {
   content: "";
   clear: both;
