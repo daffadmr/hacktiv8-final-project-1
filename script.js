@@ -12,7 +12,7 @@ immediateLoadEventListener();
 // Kumpulan Function
 function immediateLoadEventListener() {
   search.addEventListener("keyup", searchTodo);
-  filter.addEventListener("click", filterTodos);
+  filter.addEventListener("change", filterTodos);
   searchButton.addEventListener("click", toggleSearch);
   form.addEventListener("submit", submitTodo);
   list.addEventListener("click", completeAndDelete);
